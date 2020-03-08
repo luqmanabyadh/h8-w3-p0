@@ -1,11 +1,11 @@
 function palindrome(kata) {
     var temp = ''
 
-    for (var i = kata.length -1; i => 0; i--) {
+    for (var i = kata.length -1; i >= 0; i--) {
         temp += kata[i]
     }
-
-    if (temp == kata[i]) {
+    
+    if (kata == temp) {
         return true
     } else {
         return false

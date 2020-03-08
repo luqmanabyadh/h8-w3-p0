@@ -64,7 +64,7 @@ function dataHandling2(input) {
     for (var i = 0; i < temp.length; i++) {
         temp[i] = temp[i].toString();
 
-        if (temp.length -1 === i && temp[i].length === 1) {
+        if (temp.length - 1 === i && temp[i].length === 1) {
             temp[i] = '0' + temp[i]
         }
     }
